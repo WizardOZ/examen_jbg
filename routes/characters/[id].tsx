@@ -19,7 +19,7 @@ export default function CharacterPage({ data }: PageProps) {
     
     <div>
         <div style="background-color: grey;">
-            <button> Todos </button><button> Favoritos</button>
+            <a href="/"> Todos </a> <a href="/favorites"> Favoritos</a>
         </div>
         <h2>{data.id}</h2>
       <a href="/">Volver</a>

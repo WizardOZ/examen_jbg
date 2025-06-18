@@ -1,4 +1,3 @@
-// routes/toggle-fav.ts
 import { HandlerContext } from "$fresh/server.ts";
 import { getFavoritesFromCookie, setFavoritesCookie } from "../lib/api.ts";
 

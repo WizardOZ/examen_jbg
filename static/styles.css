@@ -127,3 +127,19 @@ html {
 .tabular-nums {
   font-variant-numeric: tabular-nums;
 }
+
+
+.characterCard {
+  flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+  width: 10%;
+  border: 1px solid #000;
+}
+
+.characterCard img {
+  margin-left: 40px;
+  width: 100;
+}
+
+
